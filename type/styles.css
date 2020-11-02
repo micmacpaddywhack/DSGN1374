@@ -4,13 +4,13 @@ h1 {
 	text-align:center;
 	font-family:Fira Sans Condensed;
 	font-style:bold
-	color:lightsalmon;
+	color:cyan;
 	font-size:5em;
 	letter-spacing: 8px
 	}
 
 body {
-	background-color: darkgrey;
+	background-color: black;
 	color: white;
 	text-align: justify;
 	font-family: 'Fira Sans Condensed', serif;
@@ -21,50 +21,215 @@ body {
 }
 
 div.a {
-  background-color: darkgrey;
-  width: auto;
-  border: 4px solid white;
-  padding: 30px;
-  margin: auto;
+  width: 400px;
+  border: 2px solid cyan;
+  padding: 15px;
+  margin-top:15em;
+  margin-left: 40em;
+  opacity: 0.2;
 }
 
-div.b {
-  width: 120px;
-  height: auto;
-  background-color: black;
-  -ms-transform: rotate(-10deg); /* IE 9 */
-  transform: rotate(-10deg);
-  line-height: 1.5;
+.letter1 {
+	display: block;
+	margin-block-start: -0.1em;
+	margin-block-end:-3px;
+	font-weight: bold;
+	position:absolute;
+	transform: rotateY(180deg);
+	color:white;
+	text-shadow: 5px 5px crimson,-5px -5px cyan;
+	letter-spacing: 0.1em;
+	margin-left: 5em;
+}
+
+.letter2 {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 20px;
+	font-weight: bold;
+	position: absolute; 
+	color:white;
+	text-shadow: 5px 5px crimson,-5px -5px cyan;
+	letter-spacing: 0.1em;
+	margin-left: -1em;
+}
+
+.letter3 {
+	font-size: 2em;
+    opacity: 0.4;
+    position: absolute;
+    top:13em;
+    left:-3em;
+    transform: skewY(15deg);
+}
+
+.letter4 {
+	font-size: 0.1em;
+    opacity: 0.4;
+    position: absolute;
+    top:60em;
+    left:60em;
+    transform: rotate(45deg);
+    margin-block-start: 30em;
+	margin-block-end: 40px;
+}
+
+.letter5 {
+	font-size: 0.1em;
+    opacity: 0.4;
+    position: absolute;
+    top:60em;
+    left:60em;
+    transform: rotate(270deg);
+    margin-block-start: 30em;
+	margin-block-end: 40px;
+}
+
+.letter6 {
+	font-size: 0.1em;
+    opacity: 0.4;
+    position: absolute;
+    top:60em;
+    left:60em;
+    margin-block-start: 30em;
+	margin-block-end: 40px;
+}
+
+.letter7 {
+	font-size: 0.1em;
+    opacity: 0.4;
+    position: absolute;
+    top:60em;
+    left:60em;
+    transform: rotate(315deg);
+    margin-block-start: 30em;
+	margin-block-end: 40px;
+}
+
+.letter33 {
+	font-size: 6em;
+	color: lightblue;
+    opacity: 0.4;
+    position: absolute;
+    top:4em;
+    right:6em;
+    transform: skewY(15deg);
 }
 
 .info {
 	font-family:'Fira Sans Condensed', sans-serif;
+	font-size: 1em;
+	max-width: 15em;
+	margin-block-start: 10em;
+	margin-block-end:6em;
 	color: grey;
-	font-weight:700;
-	text-decoration:underline;
+	font-weight:400;
+	position: absolute;
+	transform: rotate(-90deg);
+	line-height: 2em
+}
+
+.info2 {
+	font-family:'Fira Sans Condensed', sans-serif;
+	font-size: 2em;
+	font-style: italic;
+	max-width: 40em;
+	margin-block-start:20.2em;
+	margin-block-end:30em;
+	color: grey;
+	font-weight:400;
+	position: absolute;
+	transform: skew(4deg);
+	line-height: 2em
 }
 
 .other-font {
 	font-family:Josefin-Slab, serif;
 	font-style: italic;
-	color: whitesmoke;
-	font-weight: 400;
-	font-size: 1.5em;
+	width: 440pt;
+	color: cyan;
+	font-size: 1em;
 }
 
 .important {
 	font-family:'Fira Sans Condensed', sans-serif;
-	color: white;
-	font-weight:600;
-	font-size:1.3em;
-	margin:auto;
+	color:crimson;
+	font-weight:100;
+	font-size:2.7em;
+	opacity: 0.3;
 }
 
 .moral {
 	font-family:'Fira Sans Condensed', sans-serif;
 	color: lightgrey;
 	font-weight:600;
-	text-decoration:
+	font-size: 4em;
+	left: 3.3em;
+	filter: blur(4px);
+	transform:skew(-45deg);
 }
 
+.moral2 {
+	font-family:'Fira Sans Condensed', sans-serif;
+	color: lightgrey;
+	font-weight:600;
+	font-size: 4em;
+	left: 3.3em;
+	filter: blur(3px);
+	transform:skew(-45deg);
+}
 
+.moral3 {
+	font-family:'Fira Sans Condensed', sans-serif;
+	color: lightgrey;
+	font-weight:600;
+	font-size: 4em;
+	left: 3.3em;
+	filter: blur(2px);
+	transform:skew(-45deg);
+}
+
+.moral4 {
+	font-family:'Fira Sans Condensed', sans-serif;
+	color: lightgrey;
+	font-weight:600;
+	font-size: 4em;
+	left: 3.3em;
+	filter: blur(1px);
+	transform:skew(-45deg);
+}
+
+.moral5 {
+	font-family:'Fira Sans Condensed', sans-serif;
+	color: lightgrey;
+	font-weight:600;
+	font-size: 4em;
+	left: 3.3em;
+	filter: blur(0px);
+	transform:skew(-45deg);
+}
+
+.center {
+	display: block;
+    max-width: 16em;
+    margin-left: 40em;
+    margin-block-start: -8em;
+    margin-block-end: 6em;
+    color: white;
+    text-align: justify right;
+    font-size: 1em;
+    line-height: 19pt;
+}
+
+.center2 {
+	display: block;
+    max-width: 16em;
+    margin-left: 60em;
+    margin-block-start: -8em;
+    margin-block-end: 6em;
+    color: white;
+    text-align: justify right;
+    font-size: 1em;
+    line-height: 19pt;
+    transform: rotateY(180deg);
+}
