@@ -1,0 +1,44 @@
+/* Images */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+		font-family: serif;
+		background: black;
+		font-family: Helvetica, arial, sans-serif;
+ 		font-weight: normal;
+		line-height: 1.4
+		font-size:16px;
+		margin:0.25em;
+		background-image: url(img/brickwall.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+		}
+
+
+
+
+h1 {
+	display: block;
+	font-size: 3em;
+	font-weight: bold;
+	position: relative;
+}
+img style{
+	max-width: 100%;
+
+}
+
+.relative {
+	position: relative;
+	left: 60px;
+	border:1px solid white;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 16px;	
+}
+
