@@ -1,11 +1,121 @@
-<!DOCTYPE html>
+<html>
+
 <head>
-	<title>Interview</title>
-	<link rel="stylesheet" href="style.css">
-	<meta name="viewport" content="width=device-width">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<title>Sticky notes using CSS3 and Google Fonts (Step 5)</title>
+<link href="http://fonts.googleapis.com/css?family=Reenie+Beanie:regular" rel="stylesheet" type="text/css"> 
+
+
+<style type="text/css">
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  font-family:arial,sans-serif;
+  font-size:150%;
+  margin:4em;
+  background:#666;
+  color:#fff;
+  background-image: url('cork.jpg');
+}
+
+h1 {
+	color:black;
+	text-align:center;
+	font-weight: 600;
+	font-size: 4em;
+	text-transform: uppercase;
+	text-shadow: 4px 4px white;
+}
+
+h2,p {
+  font-size:.7em;
+  font-weight:normal;
+}
+ul,li {
+  list-style:none;
+}
+ul {
+  overflow:hidden;
+  padding:3em;
+}
+ul li a{
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;
+  height:10em;
+  width:10em;
+  padding:1em;
+  -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  -moz-transition:-moz-transform .15s linear;
+  -o-transition:-o-transform .15s linear;
+  -webkit-transition:-webkit-transform .15s linear;
+}
+ul li{
+  margin:1em;
+  float:left;
+}
+ul li h2{
+  font-size:80%;
+  align-self: center;
+  font-weight:bold;
+  padding-bottom:15px;
+}
+ul li p{
+  font-family:"Reenie Beanie",arial,sans-serif;
+  font-size:80%;
+}
+ul li a{
+  -webkit-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  -moz-transform:rotate(-6deg);
+}
+ul li:nth-child(even) a{
+  -o-transform:rotate(4deg);
+  -webkit-transform:rotate(4deg);
+  -moz-transform:rotate(4deg);
+  position:relative;
+  top:5px;
+  background:#cfc;
+}
+ul li:nth-child(3n) a{
+  -o-transform:rotate(-3deg);
+  -webkit-transform:rotate(-3deg);
+  -moz-transform:rotate(-3deg);
+  position:relative;
+  top:-5px;
+  background:#ccf;
+}
+ul li:nth-child(5n) a{
+  -o-transform:rotate(5deg);
+  -webkit-transform:rotate(5deg);
+  -moz-transform:rotate(5deg);
+  position:relative;
+  top:-10px;
+}
+ul li a:hover,ul li a:focus{
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  position:relative;
+  z-index:5;
+}
+ol{text-align:center;}
+ol li{display:inline;padding-right:1em;}
+ol li a{color:#fff;}
+
+</style>
+
 </head>
+
+
 <body>
 
 	<main>
@@ -13,68 +123,63 @@
 			<h1> I n t e r v i e w </h1>
 		</header>
 
-		<div class="container">
+  <ul>
+    <li>
+      <a href="#">
+        <h2>When I say "graphic designer" what is the first thing that comes to mind?</h2>
+        <p>The first thing that comes to my mind is, visual communication.</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <h2>What is a graphic designer to you?</h2>
+        <p>A graphic designer is someone who needs to convey a message and inform/captivate the audience through physical or virtual art.</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <h2>How did you become interested in graphic design?</h2>
+        <p>I have always been interested in the arts. Like all kids, I loved cartoons. I loved how hilariously exaggerated they were, and I would doodle all over my school books. However, it wasn't until recent when talking with my cousin, who in the graphic design field, that this is the career for me. </p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <h2>What qualities and skills should a good graphic designer have?</h2>
+        <p>Imagination. Innovation. A graphic designer should have a creative eye and an understanding of visual communication. Another quality is attention to detail and being current with the latest trends. Time management and organization skills are also very important.</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <h2>Are you lacking any of these qualities?</h2>
+        <p>One skill that I have always struggled with is my time management. As a graphic design student I find myself scrambling to get all my projects finished on time, and I know when in the field, it will be no different, so hopefully I can learn how to prioritize and schedule my time better.</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <h2>Describe your creative process. What are the major steps?</h2>
+        <p>First, I make a coffee... probably the most important step. Next, I make a list of words and create a mind-map. I add pictures and quick doodles to my mind-map and I use Pinterest and other websites to help for images.</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <h2>Tell me your best design joke? </h2>
+        <p>Roses are #ff0000, violets are #0000FF</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <h2>What softwares do you use?</h2>
+        <p>I use Adobe Illustrator everyday, it allows me to create editable vectors that can scale to any size, which is great for illustrations and logo design. I also use Adobe Photoshop to minipulate photography and Indesign to create documents/ posters/ flyers/ books ect.</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <h2>What are your plans as a Graphic Designer, after you finish school?</h2>
+        <p>I haven’t really thought that far ahead, it’s 2020 and I don’t even know what day it is anymore. I still have so much more to learn from this program, so who knows what I will be doing when I finish.</p>
+      </a>
+    </li>
+  </ul>
 
-			<div class="q"> 
-				<h3> When I say "graphic designer" what is the first thing that comes to mind? </h3>
-			</div>
-			<div class="a"> 
-				<p> Visual communication </p>
-			</div>
-
-			<div class="q"> 
-				<h3> What is a graphic designer to you? </h3>
-			</div>
-
-			<div class="a"> 
-				<p> A graphic designer is someone who needs to convey a message and inform/captivate the audience through physical or virtual art. </p> 
-			</div>
-
-			<div class="q"> 
-				<h3> What qualities and skills should a good graphic designer have? </h3>
-			</div>
-
-			<div class="a"> 
-				<p> Imagination. Innovation. A graphic designer should have a creative eye and an understanding of visual communication. Another quality is attention to detail and being current with the latest trends. Time management and organization skills are also very important.   </p> 
-			</div>
-
-			<div class="q"> 
-				<h3> Are you lacking any of these qualities? </h3>
-			</div>
-
-			<div class="a"> 
-				<p> One skill that I have always struggled with is my time management. As a graphic design student I find myself scrambling to get all my projects finished on time, and I know when in the field, it will be no different, so hopefully I can learn how to prioritize and schedule my time better. </p> 
-			</div>
-
-
-			<div class="q"> 
-				<h3> Describe your creative process. What are the major steps? </h3>
-			</div>
-
-			<div class="a"> 
-				<p> First I make a coffee.. probably the most important step. Next, I make a list of words and create a mind-map. I add pictures and quick doodles to my mind-map and I use Pinterest and other websites to help for images.</p> 
-			</div>
-
-			<div class="q"> 
-				<h3> Tell me your best design joke? </h3>
-			</div>
-
-			<div class="a"> 
-				<p> Roses are #ff0000, violets are #0000FF </p> 
-			</div>
-
-			<div class="q"> 
-				<h3> What are your plans as a Graphic Designer after you finish school? </h3>
-			</div>
-
-			<div class="a"> 
-				<p> I haven’t really thought that far ahead, it’s 2020 and I don’t even know what day it is anymore. I still have so much more to learn from this program, so who knows what I will be doing when I finish my program. </p> 
-			</div>
-
-		</div>
-
-
-
-
-	</main>
 </body>
+
+</html>
