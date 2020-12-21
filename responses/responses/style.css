@@ -1,0 +1,190 @@
+/* Responses */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: lightblue;
+	color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	line-height: 1.4;
+	font-size: 16px;
+	margin: 0.25em;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+/* Typography */
+
+h1 {
+	font-size: 7em;
+	font-weight: bold;
+	margin: 0 0 1em 0;
+	text-transform: uppercase;
+	margin-top: 400px;
+	margin-left:200px;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: normal;
+	margin: 0 0 1em 0;
+}
+
+h3 {
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 0 1em 0;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+a {
+	border: 1px solid black
+	border-radius: 2em;
+	padding: 1em 1em;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 0 0 1em 0;
+	background-color: coral;
+	color: white;
+	text-decoration: underline;
+	transition: all 0.3s;
+}
+
+
+a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.button {
+	border: 1px solid black;
+	border-radius: 3em;
+	padding: 1em 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 0 0 1em 0;
+}
+
+.button:hover {
+	background-color: black;
+	color: white;
+}
+
+
+
+/* Grid */
+
+.grid {
+	display: grid;
+	grid-template-columns: 100%;
+	align-content: center;
+	min-height: 100vh;
+}
+
+.items {
+	padding: 0.5em;
+	margin-left:500px;
+}
+
+@media (min-width: 40em) {
+	.grid {
+		grid-template-columns: 50% 50%;
+	}
+
+
+.Handmade: {
+	background-color: blue;
+	}
+
+.Handmade h1 {
+	color: coral;
+	font-size:4em;
+	margin-top: auto;
+	margin-left: 400px;
+	margin-right: -1600px;
+}
+
+.handmadetype {
+	color: white;
+	font-size: 15px;
+	margin-left: 300px; 
+}
+
+.handmadetype2 {
+	color: teal;
+	font-size: 15px;
+	margin-left:500px;
+}
+
+.handmadetype3 {
+	color: white;
+	font-size: 15px;
+	margin-left:100px;
+	margin-right:-400px;
+}
+
+.handmadetype4 {
+	color: teal;
+	font-weight: bold;
+	font-size: 2.7em;
+	opacity: 0.3;
+	margin-left:-450px;
+	margin-right:-700px;
+	margin-top:10px;
+}
+
+.goblet {
+	color: white;
+	font-weight: bold;
+	margin-top: -50;
+	font-size: 4em;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.goblet1 {
+	color:teal;
+	font-weight: bolder;
+	margin: auto;
+	margin-top:100px;
+	opacity: 0.8
+}
+
+.goblet2 {
+	color:teal;
+	font-weight: bold;
+	opacity:0.6;
+	margin: auto;
+	margin-top:100px;
+}
+
+.goblet3 {
+	color:teal;
+	font-weight: normal;
+	opacity: 0.4;
+	margin: auto;
+	margin-top:300px;
+}
+
+.goblet4 {
+	color:teal;
+	font-weight: lighter;
+	opacity: 0.2;
+	margin: auto;
+	margin-top:100px;
+}
+
